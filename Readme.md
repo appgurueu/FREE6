@@ -5,7 +5,7 @@
 
 A lightweight and scalable level-tracking Discord bot, inspired by [k9](https://github.com/Aurailus/k9) and [MEE6](https://mee6.xyz). Completely free.
 
-Made by Lars Mueller aka LMD or appguru(eu). Code licensed under the terms of the GPLv3 (GNU Public License Version 3).
+Made by Lars Mueller aka LMD or appguru(eu). Code licensed under the terms of the GPLv3 (GNU Public License Version 3). Support is available on the [Discord Server](https://discord.gg/ysP74by).
 
 ## Screenshots
 
@@ -27,8 +27,9 @@ Used Java version is 11, but it should also be compatible with Java 8.
 
 ## Hosting
 
-FREE6 requires a running Redis server. Run FREE6 using `java <path_to_main_class> <path_to_conf>`.
-For an example conf file, see `/conf/example.conf`. Note that it is recommended to start Redis yourself and to take additional security measures.
+FREE6 requires a running Redis server. Run FREE6 using `java -jar <path_to_jar> <path_to_conf>`. You might have to `cd` into the JAR's directory.
+The JAR can be found in `build/libs/FREE6.jar`. Make sure you have Java 11 installed. It is, however, recommended to start & build FREE6 yourself using Gradle & Apache NetBeans.
+For an example conf file, see `/conf/example.conf`. Note that it is recommended to start Redis yourself and that you should take additional security measures.
 
 ## Help
 

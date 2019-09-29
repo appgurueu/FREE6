@@ -20,3 +20,12 @@ dependencies {
 run {
     args 'conf/example.conf'
 }
+
+jar {
+    manifest {
+        attributes(
+            'Created-By': "Gradle ${gradle.gradleVersion}",
+            'Main-Class': "appguru.FREE6.Main"
+        )
+    }
+}
