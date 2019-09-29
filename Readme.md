@@ -97,4 +97,4 @@ Displays the desired interactive leaderboard page modulo the number of pages usi
 
 Leaderboards can be refreshed or scrolled using reactions ("⬅", "🔄" and "➡").
 
-If no `page` is given, it defaults to the first page.
+If no `page` is given, it defaults to the first page
